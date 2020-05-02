@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Federal soft systems</title>
+ 
+<style>
+#container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+	float: left
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+canvas{
+	float: right;
+}
+
+</style>
+</head>
+ 
+<body>
+<div id="container">
+	<video autoplay="true" id="videoElement">Sorry unable to connect vedio</video>
+</div>
+		<canvas></canvas>
+
+
+	<button onclick="stop()"> Stop vedio</button>
+	<button onclick="snap()">Take a snap</button>
+<script src="Media.js" async>
+
+</script>
+</body>
+</html>
